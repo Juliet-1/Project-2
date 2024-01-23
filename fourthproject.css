@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(7, 33, 27);
+}
+
+h2{
+    position: relative;
+    top: 200px;
+    left: 430px;
+    color: aliceblue;
+}
+
+.main-dif{
+    display: flex;
+    position: relative;
+    top: 200px;
+    left: 200px;
+    justify-content: center;
+    background-color: aquamarine;
+    width: fit-content;
+}
+
+.div-1, .div-2, .div-3, .div-4{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 1px solid black;
+    padding: 50px;
+}
+
+.div-1{
+    background-color: red;
+    color: aliceblue;
+}
+
+
+
+
